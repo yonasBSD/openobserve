@@ -94,7 +94,7 @@ itertools.workspace = true
 jsonwebtoken = "9.2.0"
 log.workspace = true
 maxminddb = "0.23.0"
-memory-stats = "1.1.0"
+memory-stats = { git =  "https://github.com/lcheylus/rust-memory-stats" }
 mimalloc = { version = "0.1", default-features = false, optional = true }
 once_cell.workspace = true
 opentelemetry = "0.22"
